@@ -1,0 +1,78 @@
+.message{
+    flex: 4;
+}
+.messageContainer{
+    width: 700px;
+    margin: 30px 150px;
+    -webkit-box-shadow: 0px 0px 15px -10px #000000; 
+    box-shadow: 0px 0px 15px -10px #000000;
+}
+.messageHead{
+    display: flex;
+    align-items: center;
+    height: 60px;
+    border-bottom: 1px solid gray;
+}
+.messageUser{
+    margin-left: 25%;
+    font-size: 16px;
+    font-weight: 600;
+}
+.messageOnline{
+    margin-left: 10px;
+    font-size: 16px;
+    font-weight: 300;
+}
+.messageSetting{
+    margin-left:45%;
+}
+.messageImg{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-left: 10px;
+}
+.messageBody{
+    display: flex;
+    flex-direction: column;
+}
+.messageLeft{
+    margin-left: 20px;
+    padding: 20px;
+}
+.messageRight{
+    margin-left: 530px;
+}
+.messageKeyImg{
+    width: 670px;
+    height: 300px;
+    margin-left: 15px;
+    margin-bottom: 5px;
+}
+.messageInput{
+    color: gray;
+    border: 1px solid gray;
+    background-color: rgb(245, 239, 244);
+    border-radius: 5px;
+    width: 670px;
+    height: 40px;
+    margin-left: 15px;
+    display: flex;
+    align-items: center;
+}
+.messageInput>label{
+    margin-left: 20px;
+    border: none;
+}
+.messageIcon1{
+    margin-left: 400px;
+}
+.messageIcon2{
+    margin-left: 20px;
+}
+.messageIcon3{
+    margin-left: 30px;
+    background-color: rgb(150, 249, 150);
+    color: white;
+    border-radius: 50%;
+}
